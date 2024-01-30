@@ -48,16 +48,5 @@ class TestTriangleClassification(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-"""def test_righttriangle():
-   assert classify_triangle(3, 4, 5) == "right triangle"
-def test_equilateraltriangle():
-    assert classify_triangle(6, 6, 6) == "equilateral triangle"
-def test_scalenetriangle():
-    assert classify_triangle(4,5,6) == "scalene triangle"
-def test_isoscelestriangle():
-    assert classify_triangle(4, 5, 5) == "isosceles triangle"
-def test_nottriangle():
-    assert classify_triangle(1,5,8) == "error! the given sides doesn't make a triangle"
-     
-   """    
+
         
