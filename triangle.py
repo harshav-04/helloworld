@@ -35,16 +35,16 @@ class TestTriangleClassification(unittest.TestCase):
         self.assertEqual(classify_triangle(3, 4, 5), "right triangle")
 
     def test_equilateral_triangle(self):
-        self.assertEqual(classify_triangle(2, 2, 2), "equilateral triangle")
+        self.assertEqual(classify_triangle(6, 6, 6), "equilateral triangle")
 
     def test_isosceles_triangle(self):
-        self.assertEqual(classify_triangle(3, 3, 4), "isosceles triangle")
+        self.assertEqual(classify_triangle(3, 5, 5), "isosceles triangle")
 
     def test_scalene_triangle(self):
-        self.assertEqual(classify_triangle(3, 4, 6), "scalene triangle")
+        self.assertEqual(classify_triangle(5, 4, 6), "scalene triangle")
 
     def test_not_a_triangle(self):
-        self.assertEqual(classify_triangle(1, 1, 2), "error! the given sides doesn't make a triangle")
+        self.assertEqual(classify_triangle(1, 5, 8), "error! the given sides doesn't make a triangle")
 
 if __name__ == '__main__':
     unittest.main()
